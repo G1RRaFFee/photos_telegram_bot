@@ -1,7 +1,5 @@
 from enum import Enum
 
-PHOTOS_PER_PAGE = 3
-
 class CodeStatus(Enum):
     SUCCESS = 200
     NOT_FOUND = 404
